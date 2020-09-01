@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Sistema de Nacionalidades</h1>
+    Digite sua nacionalidade:<input type="text" name="txt_nac" id="txt_nac">
+    <input type="button" value="Clique aqui" onclick="Clicar()">
+    <div id="res"></div>
+    <script>
+        
+        function Clicar(){
+            let txtnac = document.getElementById('txt_nac')
+            let res = document.getElementById('res')
+            let nac = (txt_nac.value)
+            if(nac == 'Brasil'){
+                res.innerHTML = `Você é Brasileiro!`
+            } else {
+                res.innerHTML = `Você é Estrangeiro!`
+            }
+        }
+        
+
+    </script>
+</body>
+</html>
