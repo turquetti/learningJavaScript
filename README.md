@@ -1,6 +1,8 @@
 # Learning JavaScript Journey!
 
-**Follow along my journey trying to figure out JavaScript! Until now, I took 2 course to learn about the basics (links below!) and now I am on my way to the third one, working with some OOP.**
+Follow along my journey trying to figure out JavaScript! Until now, I took 2 course to learn about the basics (links below!) and now I am on my way to the third one, working with some OOP!
+
+# Here are the courses I took so far:
 
 1. Guanabara's 40h crash course (Available only in Portuguese!):[Click on me!](https://www.cursoemvideo.com/course/javascript/)
 
