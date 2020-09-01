@@ -1,4 +1,4 @@
-# Learning JavaScript
+# Learning JavaScript Journey!
 
 **Follow along my journey trying to figure out JavaScript! Until now, I took 2 course to learn about the basics (links below!) and now I am on my way to the third one, working with some OOP.**
 
