@@ -20,3 +20,5 @@ Follow along my journey trying to figure out JavaScript! Until now, I took 2 cou
 2. Alura's 10h begginers course (Available only in Portuguese!): [Click on me!](https://www.alura.com.br/curso-online-javascript-introducao)
 
 3. Alura's 10h Introduction to OOP (Available only in Portuguese!): [Click on me!](https://www.alura.com.br/curso-online-javascritpt-orientacao-objetos)
+
+4. [CURRENT COURSE] Udacity's Object-Oriented Javascript (Available only in English!): [Click on me!](https://www.udacity.com/course/object-oriented-javascript--ud711)
