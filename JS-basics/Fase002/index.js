@@ -1,24 +1,81 @@
-const aluno01 = {
-    nome: "Gabriela",
-    nota: 9.8
+const classA = [
+    { 
+        name: "Gabriela",
+        grade: 9.8
+    },
+    { 
+        name: "Bolacha",
+        grade: 2
+    },
+    { 
+        name: "Jacquin",
+        grade: 7
+    }
+]
+
+const classB = [
+    { 
+        name: "Eduardo",
+        grade: 10
+    },
+    { 
+        name: "Tim",
+        grade: 4
+    },
+    { 
+        name: "Frida",
+        grade: 9
+    }
+]
+
+function calculateAverage(students) {
+    let sum = 0
+
+    for (let i = 0; i < students.length; i++){
+        sum = sum + students[i].grade
+    }
+
+    const average = sum / students.length
+
+    return average
 }
 
-const aluno02 = {
-    nome: "Bolacha",
-    nota: 8
+
+
+function sendMessage(average, turma) {
+    if(average > 5) {
+        console.log(`The average of class ${turma} was ${average}. Congratulations!`)
+    } else {
+        console.log(`The average of class ${turma} was below 5.`)
+    }
 }
 
-const aluno03 = {
-    nome: "Jacquin",
-    nota: 7
+function markAsFlunked (student) {
+    student.flunked = false
+
+    if (student.grade < 5) {
+        student.flunked = true
+    }
 }
 
-const media = (aluno01.nota + aluno02.nota + aluno03.nota)/3
-
-//Se média maior que 5, parabenizar a turma
-
-if(media > 5) {
-    console.log(`A nota foi de ${media}`. Parabéns!`)
-} else {
-    console.log('A média é menor que 5.')
+function sendFlunkedMessage (student) {
+    if (student.flunked) {
+        console.log(`The student ${student.name} is flunked!`)
+    }   
 }
+
+function studentsflunked(students) {
+    for (let student of students) {
+        markAsFlunked(student)
+        sendFlunkedMessage(student)
+    }
+}
+
+const average1 = calculateAverage(classA)
+const average2 = calculateAverage(classB)
+
+sendMessage(average1, 'A')
+sendMessage(average2, 'B')
+
+studentsflunked(classA)
+studentsflunked(classB)
