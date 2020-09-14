@@ -42,11 +42,11 @@ function calculateAverage(students) {
 
 
 
-function sendMessage(average, turma) {
+function sendMessage (average, class) {
     if(average > 5) {
-        console.log(`The average of class ${turma} was ${average}. Congratulations!`)
+        console.log(`The average of class ${class} was ${average}. Congratulations!`)
     } else {
-        console.log(`The average of class ${turma} was below 5.`)
+        console.log(`The average of class ${class} was below 5.`)
     }
 }
 
