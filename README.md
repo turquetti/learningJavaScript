@@ -1,6 +1,6 @@
 # Learning JavaScript Journey!
 
-Follow along my journey trying to figure out JavaScript! Until now, I took 2 course to learn about the basics (links below!) and now I am on my way to the third one, working with some OOP!
+Follow along my journey trying to figure out JavaScript! Until now, I took 2 courses to learn about the basics (links below!) and now I am on my way to the third one, working with some OOP!
 
 # My Roadmap (for Front-End Dev)
 - [X] Syntax
